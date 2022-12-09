@@ -17,10 +17,10 @@ function App() {
           <p className="">
             As a <span className="color-yellow"> Software Engineer</span>  with a background in chemical science,
             I have a unique perspective and set of skills that make me well-suited to the challenges of software engineering.
-            Your strong foundation in problem-solving and analytical thinking, developed through my studies in chemical science,
+            My strong foundation in problem-solving and analytical thinking, developed through my studies in chemical science,
             allows me to approach complex technical challenges with confidence and creativity.
           </p>
-          {/* <br /> */}
+          <br />
           <p className="">
             In my free time, I write Poems which are focused on helping people build healthy self-identity.
             My creativity and passion for helping others make me a well-rounded and valuable member of my team,
@@ -34,7 +34,7 @@ function App() {
             </span>
           </p>
         </div>
-        <button className=" button rounded font-bold py-2 px-8 text-sm my-6  ">
+        <button className=" button rounded text-xl font-bold py-2 px-8 text-sm my-6  ">
           Say Hi
         </button>
         <div className="flex items-center gap-6 my-4 ">
