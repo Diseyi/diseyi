@@ -35,12 +35,18 @@ function App() {
           </p>
         </div>
         <div className="flex gap-2">
-          <button className=" button rounded text-xl font-bold py-2 px-8 text-sm my-6  ">
-            Resume
-          </button>
-          <button className=" button rounded text-xl font-bold py-2 px-8 text-sm my-6  ">
-            Send a mail
-          </button>
+          <a href="https://drive.google.com/file/d/14rgTgfoXb5zl4B0YIu-31u_GyUaYHagT/view?usp=drivesdk" target="blank">
+            <button className=" button rounded text-xl font-bold py-2 px-8 text-sm my-6  ">
+              Resume
+            </button>
+          </a>
+
+          <a href="mailto:filomiinaa@gmail.com" className="">
+            <button className=" button rounded text-xl font-bold py-2 px-8 text-sm my-6  ">
+              Connect with me
+            </button>
+          </a>
+
         </div>
 
         <div className="flex items-center gap-6 my-4 ">
