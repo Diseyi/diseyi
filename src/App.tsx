@@ -15,7 +15,7 @@ function App() {
         <h2 className="color-yellow font-semibold my-2 text-3xl">Software Engineer (Front-End) </h2>
         <div className="my-10 paragraph leading-6">
           <p className="">
-            As a <span className="color-yellow"> Software Engineer</span>  with a background in chemical science,
+            As a <span className="color-yellow"> Software Engineer</span>  with a background in Chemical Science,
             I have a unique perspective and set of skills that make me well-suited to the challenges of software engineering.
             My strong foundation in problem-solving and analytical thinking, developed through my studies in chemical science,
             allows me to approach complex technical challenges with confidence and creativity.
@@ -34,25 +34,47 @@ function App() {
             </span>
           </p>
         </div>
-        <button className=" button rounded text-xl font-bold py-2 px-8 text-sm my-6  ">
-          Say Hi
-        </button>
+        <div className="flex gap-2">
+          <button className=" button rounded text-xl font-bold py-2 px-8 text-sm my-6  ">
+            Resume
+          </button>
+          <button className=" button rounded text-xl font-bold py-2 px-8 text-sm my-6  ">
+            Send a mail
+          </button>
+        </div>
+
         <div className="flex items-center gap-6 my-4 ">
-          <div className=" w-6 h-6">
-            <img src={github} alt="" className="w-6 h-6" />
-          </div>
-          <div className=" w-6 h-6">
-            <img src={twitter} alt="" className="w-6 h-6" />
-          </div>
-          <div className=" w-6 h-6">
-            <img src={instagram} alt="" className="w-6 h-6" />
-          </div>
-          <div className=" w-8 h-8">
-            <img src={linkedin} alt="" className="w-6 h-6" />
-          </div>
-          <div className=" w-6 h-6 ">
-            <img src={medium} alt="" className="w-6 h-6" />
-          </div>
+          <a href="https://github.com/diseyi" target="blank" className="">
+            <div className=" w-6 h-6 cursor-pointer">
+              <img src={github} alt="" className="w-6 h-6" />
+            </div>
+          </a>
+
+          <a href="https://twitter.com/diseyi_" target="blank" className="">
+            <div className=" w-6 h-6 cursor-pointer">
+              <img src={twitter} alt="" className="w-6 h-6" />
+            </div>
+          </a>
+
+          <a href="https://instagram.com/diseyi_" target="blank" className="">
+            <div className=" w-6 h-6 cursor-pointer">
+              <img src={instagram} alt="" className="w-6 h-6" />
+            </div>
+          </a>
+
+
+          <a href="https://ng.linkedin.com/in/diseyi-philomena" target="blank" className="">
+            <div className=" w-6 h-6 cursor-pointer">
+              <img src={linkedin} alt="" className="w-6 h-6" />
+            </div>
+          </a>
+
+          <a href="https://diseyi.medium.com" target="blank" className="">
+            <div className=" w-6 h-6 cursor-pointer">
+              <img src={medium} alt="" className="w-6 h-6" />
+            </div>
+          </a>
+
         </div>
       </div>
     </div>
