@@ -35,14 +35,14 @@ function App() {
           </p>
         </div>
         <div className="flex gap-2">
-          <a href="https://drive.google.com/file/d/14rgTgfoXb5zl4B0YIu-31u_GyUaYHagT/view?usp=drivesdk" target="blank">
-            <button className=" button rounded text-xl font-bold py-2 px-8 text-sm my-6  ">
+          <a href="https://drive.google.com/file/d/1wMO4DM1kGuQU2gGocCxgiSVXjE5wxUu-/view?usp=sharing" target="blank">
+            <button className=" button rounded text-xl font-bold py-2 px-3 text-sm my-6  ">
               Resume
             </button>
           </a>
 
           <a href="mailto:filomiinaa@gmail.com" className="">
-            <button className=" button rounded text-xl font-bold py-2 px-8 text-sm my-6  ">
+            <button className=" button rounded text-xl font-bold py-2 px-3 text-sm my-6  ">
               Connect with me
             </button>
           </a>
@@ -52,32 +52,32 @@ function App() {
         <div className="flex items-center gap-6 my-4 ">
           <a href="https://github.com/diseyi" target="blank" className="">
             <div className=" w-6 h-6 cursor-pointer">
-              <img src={github} alt="" className="w-6 h-6" />
+              <img src={github} alt="github" className="w-6 h-6" />
             </div>
           </a>
 
           <a href="https://twitter.com/diseyi_" target="blank" className="">
             <div className=" w-6 h-6 cursor-pointer">
-              <img src={twitter} alt="" className="w-6 h-6" />
+              <img src={twitter} alt="twitter" className="w-6 h-6" />
             </div>
           </a>
 
           <a href="https://instagram.com/diseyi_" target="blank" className="">
             <div className=" w-6 h-6 cursor-pointer">
-              <img src={instagram} alt="" className="w-6 h-6" />
+              <img src={instagram} alt="instagram" className="w-6 h-6" />
             </div>
           </a>
 
 
           <a href="https://ng.linkedin.com/in/diseyi-philomena" target="blank" className="">
             <div className=" w-6 h-6 cursor-pointer">
-              <img src={linkedin} alt="" className="w-6 h-6" />
+              <img src={linkedin} alt="linkedIn" className="w-6 h-6" />
             </div>
           </a>
 
           <a href="https://diseyi.medium.com" target="blank" className="">
             <div className=" w-6 h-6 cursor-pointer">
-              <img src={medium} alt="" className="w-6 h-6" />
+              <img src={medium} alt="medium" className="w-6 h-6" />
             </div>
           </a>
 
