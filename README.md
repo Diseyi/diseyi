@@ -1,8 +1,7 @@
 ### Hi there 👋
 ### I'm Diseyi Philomena
 ### Frontend Developer and Technical Writer
-### When I'm not coding, I write poems and letters to my future husband
-### diseyi.medium.com
+### [blog](https://dev.to/diseyi)
 ### While you're here, look around and if you want to connect with me 
 ### email: filomiinaa@gmail.com
 
