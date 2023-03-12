@@ -5,11 +5,13 @@ import instagram from "./assets/instagram.svg";
 import linkedin from "./assets/linkedin.svg";
 import twitter from "./assets/twitter.svg";
 import medium from "./assets/medium.svg";
+import Header from './components/header';
 
 function App() {
 
   return (
     <div className="App h-full lg:h-screen ">
+      {/* <Header /> */}
       <div className="text-white w-5/6 mx-auto py-20 lg:py-24 ">
         <h1 className="text-5xl font-bold name">Diseyi Philomena</h1>
         <h2 className="color-yellow font-semibold my-2 text-3xl">Software Engineer (Front-End) </h2>
@@ -30,25 +32,29 @@ function App() {
             Technology
             <br />
             <span className=" text-sm color-yellow">
-              JavaScript, TypeScript, React, Vue, Nodejs, Express, Python, MongoDB
+              HTML, CSS, JavaScript, TypeScript, React, Vue, Nodejs, Express, Python, SQL
             </span>
           </p>
         </div>
         <div className="flex gap-2">
-          <a href="https://drive.google.com/file/d/1wMO4DM1kGuQU2gGocCxgiSVXjE5wxUu-/view?usp=sharing" target="blank">
+          <a href="https://dev.to/diseyi" title='blog link' target="blank">
+            <button className=" button rounded text-xl font-bold py-2 px-3 text-sm my-6  ">
+             Blog
+            </button>
+          </a>
+
+          <a title='resume link' href="https://docs.google.com/document/d/1SvxWYdy2krxH4fA40TAMgrHE5PWG8QZMpvSsAE6_X9E/edit?usp=sharing" target="blank">
             <button className=" button rounded text-xl font-bold py-2 px-3 text-sm my-6  ">
               Resume
             </button>
           </a>
 
-          <a href="mailto:filomiinaa@gmail.com" className="">
+          <a title='email link' href="mailto:filomiinaa@gmail.com" className="">
             <button className=" button rounded text-xl font-bold py-2 px-3 text-sm my-6  ">
               Connect with me
             </button>
           </a>
-
         </div>
-
         <div className="flex items-center gap-6 my-4 ">
           <a href="https://github.com/diseyi" target="blank" className="">
             <div className=" w-6 h-6 cursor-pointer">
@@ -62,22 +68,9 @@ function App() {
             </div>
           </a>
 
-          <a href="https://instagram.com/diseyi_" target="blank" className="">
-            <div className=" w-6 h-6 cursor-pointer">
-              <img src={instagram} alt="instagram" className="w-6 h-6" />
-            </div>
-          </a>
-
-
           <a href="https://ng.linkedin.com/in/diseyi-philomena" target="blank" className="">
             <div className=" w-6 h-6 cursor-pointer">
               <img src={linkedin} alt="linkedIn" className="w-6 h-6" />
-            </div>
-          </a>
-
-          <a href="https://diseyi.medium.com" target="blank" className="">
-            <div className=" w-6 h-6 cursor-pointer">
-              <img src={medium} alt="medium" className="w-6 h-6" />
             </div>
           </a>
 
