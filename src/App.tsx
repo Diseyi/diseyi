@@ -32,7 +32,7 @@ function App() {
             Technology
             <br />
             <span className=" text-sm color-yellow">
-              HTML, CSS, JavaScript, TypeScript, React, Vue, Nodejs, Express, Python, SQL
+              HTML, CSS, JavaScript, TypeScript, React, Vue, Nodejs, Express
             </span>
           </p>
         </div>
@@ -43,7 +43,7 @@ function App() {
             </button>
           </a>
 
-          <a title='resume link' href="https://docs.google.com/document/d/1SvxWYdy2krxH4fA40TAMgrHE5PWG8QZMpvSsAE6_X9E/edit?usp=sharing" target="blank">
+          <a title='resume link' href="https://drive.google.com/file/d/1zTrZ70biTgEd4msX2r3brZ5Nx3gZxQ4U/view?usp=share_link" target="blank">
             <button className=" button rounded text-xl font-bold py-2 px-3 text-sm my-6  ">
               Resume
             </button>
@@ -62,18 +62,11 @@ function App() {
             </div>
           </a>
 
-          <a href="https://twitter.com/diseyi_" target="blank" className="">
-            <div className=" w-6 h-6 cursor-pointer">
-              <img src={twitter} alt="twitter" className="w-6 h-6" />
-            </div>
-          </a>
-
           <a href="https://ng.linkedin.com/in/diseyi-philomena" target="blank" className="">
             <div className=" w-6 h-6 cursor-pointer">
               <img src={linkedin} alt="linkedIn" className="w-6 h-6" />
             </div>
           </a>
-
         </div>
       </div>
     </div>
