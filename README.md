@@ -1,6 +1,6 @@
 ### Hi there 👋
 ### I'm Diseyi Philomena
-### Frontend Developer and Technical Writer
+### Software Developer
 ### [blog](https://dev.to/diseyi)
 ### While you're here, look around and if you want to connect with me 
 ### email: filomiinaa@gmail.com
